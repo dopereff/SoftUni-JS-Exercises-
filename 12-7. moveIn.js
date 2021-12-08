@@ -1,4 +1,4 @@
-const aprtJose = (input) => {
+const moveIn = (input) => {
   const aptCubic = Number(input[0]) * Number(input[1]) * Number(input[2]);
   let spaceNeeded = 0;
   let idx = 3;
@@ -20,6 +20,6 @@ const aprtJose = (input) => {
 };
 
 console.log(`Scenario 1:`);
-aprtJose(["10", "10", "2", "20", "20", "20", "20", "122"]);
+moveIn(["10", "10", "2", "20", "20", "20", "20", "122"]);
 console.log(`\nScenario 2:`);
-aprtJose(["10", "1", "2", "4", "6", "Done"]);
+moveIn(["10", "1", "2", "4", "6", "Done"]);

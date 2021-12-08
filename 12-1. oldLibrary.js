@@ -1,4 +1,4 @@
-const oldLibary = (input) => {
+const oldLibrary = (input) => {
   const searchingFor = input[0];
   let booksCheked = 0;
   let i = 1;
@@ -18,7 +18,7 @@ You checked ${booksCheked} books.`;
   }
   console.log(message);
 };
-oldLibary([
+oldLibrary([
   "The Spot",
   "Hunger Games",
   "Harry Potter",

@@ -1,4 +1,4 @@
-function building(input) {
+function buildingPlan(input) {
   const floors = Number(input[0]);
   const rooms = Number(input[1]);
   let message = "";
@@ -26,4 +26,4 @@ function building(input) {
   console.log(message);
 }
 
-building(["9", "5"]);
+buildingPlan(["9", "5"]);

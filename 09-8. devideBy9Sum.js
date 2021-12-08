@@ -1,4 +1,4 @@
-const devide9 = (lowNumber, highNumber) => {
+const devideBy9Sum = (lowNumber, highNumber) => {
   let goodNumberSum = 0;
 
   for (i = lowNumber; i < highNumber + 1; i++) {
@@ -13,4 +13,4 @@ const devide9 = (lowNumber, highNumber) => {
     }
   }
 };
-devide9(100, 200);
+devideBy9Sum(100, 200);
